@@ -4,7 +4,7 @@ import pandas as pd
 import io
 
 # Configure Gemini
-API_KEY = "AIzaSyA07X02l4V1HwJzVTIa_CpuMqWryVxPxLI"
+API_KEY = ""
 
 def preprocess_data(raw_text, topic=""):
     """
@@ -95,3 +95,4 @@ def preprocess_data(raw_text, topic=""):
     except Exception as e:
         print(f"Data preprocessing failed: {e}")
         return pd.DataFrame()
+
