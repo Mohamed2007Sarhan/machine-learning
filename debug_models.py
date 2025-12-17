@@ -1,7 +1,7 @@
 from google import genai
 import os
 
-API_KEY = "AIzaSyA07X02l4V1HwJzVTIa_CpuMqWryVxPxLI"
+API_KEY = ""
 
 client = genai.Client(api_key=API_KEY)
 
@@ -27,3 +27,4 @@ try:
     print(f"Response: {response.text}")
 except Exception as e2:
     print(f"Manual test failed: {e2}")
+
