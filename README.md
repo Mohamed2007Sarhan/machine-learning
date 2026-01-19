@@ -56,4 +56,5 @@ Interact with your model!
 *   `duckduckgo-search`
 
 ---
-*Built with ❤️ using Gemini & Streamlit.*
+*Built with ❤️ Mohamed Sarhan*
+
